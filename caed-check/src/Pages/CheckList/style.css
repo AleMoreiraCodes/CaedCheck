@@ -1,0 +1,49 @@
+/* Checklist.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead tr {
+    background-color: #ffec3e;
+    color: black;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #ffec3e;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
